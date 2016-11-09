@@ -2,7 +2,7 @@
 Initial front-end task for SocialCops'16
 
 ###Resources used in this project :
-  -Technology
+
     1.HTML & CSS
       - Bootstrap
     2.JavaScript
@@ -11,21 +11,25 @@ Initial front-end task for SocialCops'16
       -AngularJS
       -ChartJS
       -npm.
-  2.Data
-    *[sachin.csv](https://drive.google.com/file/d/0B2W2LMb5AIVldEZNSGJkeWNjcHM/view)*
-    *[Cric API](http://www.cricapi.com/players/)*
-    *[Knoema.com](https://knoema.com/zriil/yuvraj-sing-odi-run-scores)*
+    2.Data
+      -[sachin.csv](https://drive.google.com/file/d/0B2W2LMb5AIVldEZNSGJkeWNjcHM/view)
+      -[Cric API](http://www.cricapi.com/players/)
+      -[Knoema.com](https://knoema.com/zriil/yuvraj-sing-odi-run-scores)
 
 ###Setup :
 The package contains only __AngularJS__ and __JQuery-CSV__ in __node_modules__ and the rest of the __package.json__ dependencies can be downloaded and installed using __npm__ in the following way :
+
 '''
-npm install jquery --save
-npm install bootstrap --save
+  npm install jquery --save
+  npm install bootstrap --save
 '''
+
 or just
+
 '''
-npm install
+  npm install
 '''
+
 to install all necessary dependencies at once.
 
 ###Usage :
@@ -40,4 +44,4 @@ to install all necessary dependencies at once.
 
 ###In case you are lazy to do all the above, head over :
 
-_The project is hosted right [Here](http://slayerone.esy.es/SocialCops/index.html)_
+  _The project is hosted right [Here](http://slayerone.esy.es/SocialCops/index.html)_
