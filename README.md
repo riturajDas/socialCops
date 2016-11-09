@@ -1,5 +1,5 @@
-# [socialCops](http://slayerone.esy.es/SocialCops/index.html)
-Initial front-end task for SocialCops'16 on __Sachin Tendulkar__
+# socialCops
+Initial front-end task for SocialCops'16 on __[Sachin Tendulkar](http://slayerone.esy.es/SocialCops/index.html)__
 
 >_Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest cricketer of all time_
 > -Wikipedia
