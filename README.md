@@ -1,8 +1,8 @@
 # socialCops
-Initial front-end task for SocialCops'16
+Initial front-end task for SocialCops'16 on __Sachin Tendulkar__
 
 >_Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest cricketer of all time_
-> -Wikipedia
+> - Wikipedia
 
 ### Resources used in this project :
 1. HTML & CSS
