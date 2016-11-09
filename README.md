@@ -18,20 +18,13 @@ Initial front-end task for SocialCops'16
 ### Setup
 The package contains only __AngularJS__ and __JQuery-CSV__ in __node_modules__ and the rest of the __package.json__ dependencies can be downloaded and installed using __npm__ in the following way :
 
-    '''
-
         npm install jquery --save
-        npm install bootstrap --save
-  
-    '''
+        npm install bootstrap --save 
 
 or just
 
-    '''
-
         npm install
-  
-    '''
+
 
 to install all necessary dependencies at once.
 
