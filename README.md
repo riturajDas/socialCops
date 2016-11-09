@@ -41,4 +41,4 @@ to install all necessary dependencies at once.
 7. If nothing happens - panic and contact me immediately!
 
 ### In case you are lazy to do all the above, head over
-  _The project is hosted right [Here](http://slayerone.esy.es/SocialCops/index.html)_
+  _The project is hosted right ->[Here](http://slayerone.esy.es/SocialCops/index.html)<- check it out!_
