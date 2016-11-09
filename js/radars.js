@@ -22,6 +22,14 @@ app.controller("radarCtrl", function($scope, $http) {//angular controller
     var ballT20I = objSachin.data.bowling.T20Is.Ave;
     var ballODI = objSachin.data.bowling.ODIs.Ave;
     var ballTest = objSachin.data.bowling.tests.Ave;
+    
+    //wickets taken data
+    var wicTwenty20 = objSachin.data.bowling.twenty20.Wkts;
+    var wicListA = objSachin.data.bowling.listA.Wkts;
+    var wicFirstClass = objSachin.data.bowling.firstClass.Wkts;
+    var wicT20I = objSachin.data.bowling.T20Is.Wkts;
+    var wicODI = objSachin.data.bowling.ODIs.Wkts;
+    var wicTest = objSachin.data.bowling.tests.Wkts;
 
 
     var radarC = document.getElementById("radarChart");//grab line canvas//create line chart ID for further rendering
@@ -43,6 +51,13 @@ app.controller("radarCtrl", function($scope, $http) {//angular controller
             borderWidth: 2,
             backgroundColor: "rgba(0,165,255,0.2)",
             data: [ballTwenty20,ballListA,ballFirstClass,ballT20I,ballODI,ballTest]
+          },
+          {//wickets radar
+            label: "Wickets taken",
+            borderColor: "rgb(255,0,200)",
+            borderWidth: 2,
+            backgroundColor: "rgba(255,0,100,0.2)",
+            data: [wicTwenty20,wicListA,wicFirstClass,wicT20I,wicODI,wicTest]
           }
         ]
       },
