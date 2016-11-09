@@ -33,7 +33,7 @@ to install all necessary dependencies at once.
 
 ### Usage
 1. Download this repo (do not change the package structure!)
-2. Install necessary/missing dependencies using __NPM__ as listed in the __package.json__ file into __node_modules__ folder.
+2. Install necessary/missing dependencies using __npm__ as listed in the __package.json__ file into __node_modules__ folder.
 3. Start any server in the directory
 4. Open up any browser and go to _localhost_ on your machine.
 5. If the page loads completely - Rejoice!
