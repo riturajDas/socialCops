@@ -1,7 +1,7 @@
 {
   "name": "SocialCops",
   "version": "1.0.0",
-  "description": "Front-end task for SocialCops. Viasualise Sachin's career csv.",
+  "description": "Front-end task for SocialCops. Visualise Sachin's career csv.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
