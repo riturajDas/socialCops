@@ -1,5 +1,5 @@
 "use strict"
-//fetch information fom cric api on Sachin for bio section
+//fetch information from cric api on Sachin for bio section
 app.controller("bioCtrl", function($scope, $http) {//angular controller
   $http.get("http://cricapi.com/api/playerStats?pid=35320")//asyncronous request to api
   .then(function(res) {//response data
