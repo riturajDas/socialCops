@@ -8,7 +8,7 @@ app.controller("bioCtrl", function($scope, $http) {//angular controller
     //put data into model via $scope
     $scope.full_name = objSachin.fullName;
     $scope.ind = objSachin.country;
-    $scope.image = objSachin.imageURL;
+    $scope.teams = objSachin.majorTeams;
     $scope.bio = objSachin.profile;
     $scope.bowling = objSachin.bowlingStyle;
     $scope.batting = objSachin.battingStyle;
