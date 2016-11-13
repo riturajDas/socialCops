@@ -5,9 +5,14 @@ app.controller("radarCtrl", function($scope, $http) {//angular controller
   .then(function(res) {
 
     var objSachin = res.data;//create valid object
+    
+    /* !!! I initailly thought of iterating over the parent element of each "key:value" pair
+    to create a list of the values obtained but the object structure of this particular api
+    changed(almost flipped) right after 2 nights(I'm usually a nocturnal coder) of completion
+    so I kept these variables intact so as to make sure no other value crept into those variables !!! */
+    
     //batting data
     var batTwenty20 = objSachin.data.batting.twenty20.Ave;
-    //console.log(dataTwenty20);//test
     var batListA = objSachin.data.batting.listA.Ave;
     var batFirstClass = objSachin.data.batting.firstClass.Ave;
     var batT20I = objSachin.data.batting.T20Is.Ave;
@@ -16,7 +21,6 @@ app.controller("radarCtrl", function($scope, $http) {//angular controller
 
     //bowling data
     var ballTwenty20 = objSachin.data.bowling.twenty20.Ave;
-    //console.log(ballTwenty20);//test
     var ballListA = objSachin.data.bowling.listA.Ave;
     var ballFirstClass = objSachin.data.bowling.firstClass.Ave;
     var ballT20I = objSachin.data.bowling.T20Is.Ave;
