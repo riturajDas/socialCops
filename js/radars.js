@@ -36,7 +36,7 @@ app.controller("radarCtrl", function($scope, $http) {//angular controller
     var wicTest = objSachin.data.bowling.tests.Wkts;
 
 
-    var radarC = document.getElementById("radarChart");//grab line canvas//create line chart ID for further rendering
+    var radarC = document.getElementById("radarChart");//grab line canvas id
     var radarChart = new Chart(radarC, {//create radar chart
       type: "radar",//specify chart type
       data: {//chart configuration data
