@@ -19,7 +19,7 @@ app.controller("lineCtrl", function($scope, $http) {//angular controller
     var lineChart = new Chart(lineC, {//create line chart
       type: "line",//specify chart type
       data: {//chart configuration data
-        labels: labelS,//y-axis labels
+        labels: labelS,//x-axis labels
         datasets: [
           {
             label: "Batting score",
