@@ -29,7 +29,7 @@
           <br>
 
           <blockquote class="quote"><!--relevant quote-->
-            <h5 class="text-muted">“<em>Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest cricketer of all time</em>”</h5>
+            <h5 class="text-muted">“<em>Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest cricketer of all time.</em>”</h5>
             <footer class="text-muted"><em>- Wikipedia</em></footer>
           </blockquote>
 
@@ -54,11 +54,23 @@
         <div id="graphs"><!--graphs from the csv file and external apis-->
           <h1>Highest Batting scores</h1>
           <p class="text-muted">Batting performance over the years with 100+ runs in a single game</p>
-          <canvas id="lineChart" width="60%" height="40%" ng-controller="lineCtrl"></canvas><!--chartjs line chart drawing element-->
+          <div id="lineDiv">
+            <canvas id="lineChart" width="60%" height="40%" ng-controller="lineCtrl"></canvas><!--chartjs line chart drawing element-->
+          </div>
           <br>
           <h1>Performance Averages</h1>
           <p class="text-muted">Averages in specific matches. Try clicking the Colour Palette below !</p>
-          <canvas id="radarChart" width="60%" height="60%" ng-controller="radarCtrl"></canvas><!--chartjs radar chart drawing element-->
+          <div id="radarDiv">
+            <canvas id="radarChart" width="60%" height="60%" ng-controller="radarCtrl"></canvas><!--chartjs radar chart drwing element-->
+          </div>
+        </div>
+        
+        <div class="col-sm-12">
+          <h1>Final Thoughts</h1>
+          <br>
+          <p class="text-muted"><em>Seeing Sachin's staggering record as player I now believe I have made the right choices,i.e., watch cricket on TV indoors and play football whenever outdoors. No wonder why he was called "Little Master" then.</em></p>
+          <p class="text-muted">- Rituraj Das, Creator of <strong><a href="http://slayerone.esy.es/SocialCops/index.html">$this.awesomeWindow();</a></strong></p>
+          <br>
         </div>
 
         <div class="col-sm-12 col-md-6"><!--contact details-->
@@ -83,7 +95,7 @@
 
     <footer><!--my information-->
       <div class="container">
-        <p class="text-muted">Made with 90% study-leave time by <a href="http://slayerone.esy.es" data-toggle="tooltip" data-placement="top" title="Check out my Portfolio!"><strong>Rituraj Das<strong></a></p>
+        <p class="text-muted">Made with 90% study-leave time by <a href="http://slayerone.esy.es" data-toggle="tooltip" data-placement="top" title="Check out my Portfolio!"><strong>Rituraj Das</strong></a></p>
       </div>
     </footer>
 
